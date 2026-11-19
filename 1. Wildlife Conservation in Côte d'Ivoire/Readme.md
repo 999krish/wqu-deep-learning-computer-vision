@@ -79,30 +79,5 @@ Evaluation techniques:
 - Confusion matrix
 - Training and validation loss
 
-## 6. Current Resume Points
 
-1. Preprocessed **6,182 images** by converting them to RGB, resizing to **224 × 224 pixels**, and normalizing image data for model training.
 
-2. Built a **3-layer CNN with 316K trainable parameters**, using 16, 32, and 64 filters, dropout, and fully connected layers to classify **9 sea creature categories**.
-
-3. Built and evaluated a deep learning image classification pipeline using Python and PyTorch, achieving **63.75% validation accuracy** and a **0.63 weighted F1-score**.
-
-## 7. Potential Future Improvements
-These have not necessarily been implemented yet:
-- Apply data augmentation to improve model generalization.
-- Investigate class imbalance and improve performance on weaker categories.
-- Experiment with different CNN architectures.
-- Tune hyperparameters to improve validation accuracy.
-- Explore transfer learning using pretrained models such as ResNet.
-- Compare model performance using accuracy, precision, recall, and F1-score.
-
-## 8. Instructions for Future ChatGPT Conversations
-
-When helping me with this project:
-- Treat it as an academic deep learning project completed using PyTorch.
-- Help me write strong, concise, professional resume bullets targeted toward Data Scientist, Machine Learning Engineer, and AI roles.
-- Prefer 1–2 bullet points when requested.
-- Use actual project metrics and avoid inventing achievements.
-- Distinguish completed work from potential improvements.
-- Help me explain the project in simple terms for interviews.
-- Help me improve the project and update resume points as I gain additional results.
